@@ -1,0 +1,59 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.navbar {
+  background-color: yellow !important;
+}
+
+.navbar a,
+.navbar-brand {
+  color: black !important;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+#root,
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+}
+
+footer {
+  margin-top: auto;
+}
+
+.home-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.about-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.contact-container {
+  margin: auto;
+  padding: 20px;
+}
+.contact-details p {
+  font-size: 18px;
+}
+
+.contact-icon {
+  margin-right: 8px;
+  color: #ff6600;
+}
